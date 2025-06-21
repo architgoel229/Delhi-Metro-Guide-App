@@ -10,6 +10,9 @@ A smart, user-friendly web application to help commuters easily navigate the **D
 - ✅ **Shortest Route Calculation** between any two stations  
 - 🔄 **Intelligent Interchange Detection**  
 - 🎨 **Color-coded Line Visualization**  
+  - Magenta: `#B33791`  
+  - Pink: `#E91E63`  
+  - Violet: `#7F00FF`  
 - 👁️ **Visual Route Display** with icons and labels  
 - 📍 **Station Count & Direction Info**  
 - ⚙️ **Interactive Dropdown Selection**  
