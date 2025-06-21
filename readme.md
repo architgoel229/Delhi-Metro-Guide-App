@@ -4,7 +4,7 @@ A comprehensive web application that helps commuters navigate Delhi's metro syst
 
 ### 📽️ Demo
 
-[▶️ Download and Watch Demo](./recording.mkv)
+[▶️ Demo Video showcasing the project](https://youtu.be/7w6dm354kCE)
 
 ## Features ✨
 
