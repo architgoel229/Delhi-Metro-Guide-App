@@ -1,104 +1,62 @@
-```markdown
-# 🚇 Delhi Metro Guide App
+# Delhi Metro Guide 🚇
 
-A smart, user-friendly web application to help commuters easily navigate the **Delhi Metro network**. This project finds the **shortest route**, displays **line changes**, and distinguishes similar metro lines such as **Pink**, **Magenta**, and **Violet** using color-coded paths and direction info.
+A comprehensive web application that helps commuters navigate Delhi's metro system efficiently by finding optimal routes between stations.
 
----
+## Features ✨
 
-## ✨ Features
+- **Route Planning**: Find the shortest metro route between any two stations in Delhi
+- **Interchange Information**: Clear guidance on where and how to change metro lines
+- **Direction Indicators**: Shows which direction to travel on each line
+- **Station Count**: Displays total stations in your journey
+- **Responsive Design**: Works seamlessly on both desktop and mobile devices
+- **Modern UI**: Clean, intuitive interface with metro line color coding
 
-- ✅ **Shortest Route Calculation** between any two stations  
-- 🔄 **Intelligent Interchange Detection**  
-- 🎨 **Color-coded Line Visualization**  
-  - Magenta: `#B33791`  
-  - Pink: `#E91E63`  
-  - Violet: `#7F00FF`  
-- 👁️ **Visual Route Display** with icons and labels  
-- 📍 **Station Count & Direction Info**  
-- ⚙️ **Interactive Dropdown Selection**  
-- ⚠️ Validation to prevent selecting the same station as source & destination  
+## Technologies Used 💻
 
----
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Icons**: Remix Icon library
+- **Responsive Design**: Mobile-first approach with media queries
+- **Algorithms**: Custom route-finding logic optimized for metro networks
 
-## 🖥️ Tech Stack
+## How It Works 🔍
 
-- **Frontend**: HTML, CSS, JavaScript  
-- **Styling**: CSS (Dark Theme & Responsive)  
-- **Icons**: [Remix Icon](https://remixicon.com/)  
-- **Routing Logic**: Custom BFS-style recursive pathfinder  
+1. Select your starting station from the dropdown
+2. Choose your destination station
+3. Click "Search" to get your optimal metro route
+4. View detailed instructions including:
+   - Which line to start on
+   - Where to interchange
+   - Direction of travel for each segment
+   - Total stations in your journey
 
----
+## Code Structure 📂
 
-## 📁 Project Structure
+- index.html # Main application page 
+- aboutProject.html # Project information page 
+- style.css # All styling 
+- index.js # Metro data and route calculation logic 
+- index2.js # DOM manipulation and UI functionality
 
-```
-├── index.html           # Homepage with input and route display
-├── aboutProject.html    # About page with project info
-├── style.css            # Styling for the app
-├── index.js             # Main routing logic and metro map
-├── index2.js            # DOM rendering and interaction logic
-```
 
----
+## Installation 🛠️
 
-## 🚦 How It Works
+To run this project locally:
 
-1. Select a `Start` and `End` station.
-2. Click on **Search** to compute:
-   - Shortest possible path
-   - Any required line interchanges
-   - Directional info (e.g. "Start BLUE LINE towards Noida City Centre")
-3. Output is styled with line-specific colors and station highlights.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/delhi-metro-guide.git
 
----
+2. Open `index.html` in your browser
 
-## 📷 Preview
+## Disclaimer ⚠️
 
-> *(You can add screenshots here if hosted, or attach UI snapshots)*
+This project is not affiliated with Delhi Metro Rail Corporation (DMRC). It is a personal project created for educational purposes.
 
----
+## Credits 👏
 
-## 🛠️ Installation
+Made with ❤️ by [Archit Goel](https://www.linkedin.com/in/archit-goel-04a3b2312)
 
-1. Clone this repository:
-```bash
-git clone https://github.com/yourusername/delhi-metro-guide.git
-cd delhi-metro-guide
-```
+## License 📜
 
-2. Run Locally:
-   - Open `index.html` in your browser, or
-   - Use a static server:
-```bash
-npx serve .
-```
-
----
-
-## 🚧 Roadmap / Future Enhancements
-
-- [ ] Live Delhi Metro Timings (DMRC API)
-- [ ] Reverse Route Toggle
-- [ ] Route Overview Map (SVG/Leaflet.js)
-- [ ] Progressive Web App (PWA) Support
-
----
-
-## 📄 License
-
-MIT © 2025 [Archit Goel](https://www.linkedin.com/in/archit-goel-04a3b2312)
-
----
-
-## 🙋‍♂️ Disclaimer
-
-> This project is **not affiliated** with Delhi Metro Rail Corporation (DMRC).  
-> Built independently for educational and demonstration purposes.
-
----
-
-## 💬 Feedback
-
-Have suggestions? Found a bug?  
-Reach out via [LinkedIn](https://www.linkedin.com/in/archit-goel-04a3b2312) or open an issue.
-```
+- This project is open source and available under the MIT License
+- © 2025 [Archit Goel](https://www.linkedin.com/in/archit-goel-04a3b2312)
