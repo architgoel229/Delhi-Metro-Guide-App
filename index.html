@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="">
+        <h1 
+        >Delhi Metro Guide</h1>
+        </a>
+      </div>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/aboutProject.html">About</a></li>
+      </ul>
+      <div class="hamBurger" onclick="showMenu()">
+        <i class="ri-menu-3-line"></i>
+      </div>
+      <div class="hamBurgerMenu hideMenu">
+        <div class="closeBtn" onclick="showMenu()">
+          <i class="ri-close-line"></i>
+        </div>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/aboutProject.html">About</a></li>
+        </ul>
+    </nav>
+    <div class="warning hideError">
+        <i class="ri-error-warning-fill"></i>
+        <span>The Start station can't be same as Final Destination</span>
+    </div>
+    <div class="routeFormContainer container">
+      <h1>Delhi Metro Guide</h1>
+      <p>
+        Find the nearest metro station and get directions to your destination.
+      </p>
+      <div id="searchForm">
+        <div class="inputContainer">
+          <select class="stationSelection" id="start"></select>
+          <span>to</span>
+          <select class="stationSelection" id="end"></select>
+          <button
+          onclick="searchButtonCall()"
+            type="button"
+          >
+            Search
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="results container">
+      <div class="routeDetails">
+        <h2>Route Details</h2>
+        <div class="routeInfo">
+          <div class="fromStation smallContainers">
+            <p class="smallHeadings">From</p>
+            <div class="stationName">Initial</div>
+          </div>
+          <div class="toStation smallContainers">
+            <p class="smallHeadings">To</p>
+            <div class="stationName">Final Destination</div>
+          </div>
+          <div class="numberOfStation smallContainers">
+            <p class="smallHeadings">Stations</p>
+            <div class="stationName">XX</div>
+          </div>
+        </div>
+      </div>
+      <h2>Route</h2>
+      <div class="route"></div>
+    </div>
+    <footer>
+      <span>
+        Made with <i class="ri-heart-fill"></i> by
+        <a href="https://www.linkedin.com/in/archit-goel-04a3b2312?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZLaYA6NzTdunXl3nb34pJQ%3D%3D" target="_blank">Archit Goel</a>
+      </span>
+      <p>
+        This project is not affiliated with Delhi Metro Rail Corporation (DMRC).
+        It is a personal project created for educational purposes.
+      </p>
+    </footer>
+  </body>
+  <script src="/index.js"></script>
+  <script src="/index2.js"></script>
+</html>
