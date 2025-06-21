@@ -2,6 +2,10 @@
 
 A comprehensive web application that helps commuters navigate Delhi's metro system efficiently by finding optimal routes between stations.
 
+### 📽️ Demo
+
+[▶️ Download and Watch Demo](./recording.mkv)
+
 ## Features ✨
 
 - **Route Planning**: Find the shortest metro route between any two stations in Delhi
