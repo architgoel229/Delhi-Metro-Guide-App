@@ -46,11 +46,31 @@
       </p>
       <div id="searchForm">
         <div class="inputContainer">
-          <select class="stationSelection" id="start"></select>
+          <div class="dropDownMenu" >
+            <div class="stationSelector fromSelector" onclick="showOrHideSearch('.fromStations')">
+              <span>Select Station</span>
+              <i class="ri-arrow-drop-down-line"></i>
+            </div>
+            <div class="stations fromStations">
+              <input type="text" oninput="searching('from', this.value)" placeholder="Search Station" />
+              <div class="searchStationContainer from">
+            </div>
+            </div>
+          </div>
           <span>to</span>
-          <select class="stationSelection" id="end"></select>
+          <div class="dropDownMenu" tabindex="0">
+            <div class="stationSelector toSelector" onclick="showOrHideSearch('.toStations')">
+              <span>Select Station</span>
+              <i class="ri-arrow-drop-down-line"></i>
+            </div>
+            <div class="stations toStations">
+              <input type="text" placeholder="Search Station" oninput="searching('to', this.value)" />
+              <div class="searchStationContainer to">
+            </div>
+            </div>
+          </div>
           <button
-          onclick="searchButtonCall()"
+          onclick="searchButtonCall();document.querySelector('stations>input').value=``;"
             type="button"
           >
             Search
