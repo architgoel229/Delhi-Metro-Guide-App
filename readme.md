@@ -2,7 +2,11 @@
 
 A comprehensive web application that helps commuters navigate Delhi's metro system efficiently by finding optimal routes between stations.
 
-### 📽️ Demo
+### Direct Link 🔗
+
+[👉 Delhi Metro Guide](https://delhi-metro-guide.netlify.app/)
+
+### Demo 📽️
 
 [▶️ Demo Video showcasing the project](https://youtu.be/7w6dm354kCE)
 
