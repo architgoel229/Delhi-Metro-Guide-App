@@ -430,9 +430,9 @@ footer p {
     margin: 5px 0;
 }
 
-.warning{
+.warning, .warning1{
     position: absolute;
-    color:  #D61A3C;
+    color:  #ffffff;
     font-weight: 200;
     text-align: center;
     margin-top: 10px;
@@ -442,21 +442,22 @@ footer p {
     justify-content: center;
     gap: 5px;
     border-radius: 100px;
-    background-color: black;
-    padding: 5px 5px;
+    background-color: rgb(255,255,255,0.2);
+    padding: 5px 10px;
     top: 10vh;
     left: 50%;
     transform: translateX(-50%);
     transition: all 0.5s ease-out;
     z-index: 1000;
+    backdrop-filter: blur(20px);
 }
 
-.warning i{
+.warning i, .warning1 i{
     color:  #D61A3C;
     font-size: 1.5rem;
 }
 
-.warning span{
+.warning span, .warning1 span{
     font-size: 0.8rem;
     font-weight: 400;
 }
@@ -538,7 +539,7 @@ footer p{
     padding: 10px;
     border-radius: 10px;
     background-color: rgb(255,255,255,0.1);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(5px);
     box-shadow: 0 0 3px 2px rgba(255, 255, 255, 0.1);
     position: absolute;
     transform: translateY(5px);

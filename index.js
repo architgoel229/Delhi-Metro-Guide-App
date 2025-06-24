@@ -581,4 +581,4 @@ function directionedRoute(startStation, endStation) {
     return getDirectionedInterchangeMetroRoute(route);
 }
 
-// console.log(directionedRoute("Mayur Vihar Pocket-1", "ina"));
+

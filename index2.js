@@ -162,15 +162,23 @@ function printRoute(initialStart, finalDestination) {
   document.querySelector(".fromStation .stationName").innerText = `${initialStart}`;
 }
 function searchButtonCall() {
-  if (document.querySelector('.fromSelector>span').innerText !== document.querySelector('.toSelector>span').innerText) {
-    printRoute(document.querySelector('.fromSelector>span').innerText, document.querySelector('.toSelector>span').innerText);
-    document.querySelector('.results').style.display = 'flex';
-  } else {
+  if([document.querySelector('.fromSelector>span').innerText, document.querySelector('.toSelector>span').innerText].includes("Select Station")){
+    const warning = document.querySelector('.warning1');
+    warning.classList.remove('hideError');
+    setTimeout(() => {
+      warning.classList.add('hideError');
+    }, 3000);
+  }
+  else if(document.querySelector('.fromSelector>span').innerText == document.querySelector('.toSelector>span').innerText){
     const warning = document.querySelector('.warning');
     warning.classList.remove('hideError');
     setTimeout(() => {
       warning.classList.add('hideError');
     }, 3000);
+  }
+  else {
+    printRoute(document.querySelector('.fromSelector>span').innerText, document.querySelector('.toSelector>span').innerText);
+    document.querySelector('.results').style.display = 'flex';
   }
 }
 
