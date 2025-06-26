@@ -20,8 +20,8 @@
         </a>
       </div>
       <ul>
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="/aboutProject.html">About</a></li>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./aboutProject.html">About</a></li>
       </ul>
       <div class="hamBurger" onclick="showMenu()">
         <i class="ri-menu-3-line"></i>
@@ -31,8 +31,8 @@
           <i class="ri-close-line"></i>
         </div>
         <ul>
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/aboutProject.html">About</a></li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./aboutProject.html">About</a></li>
         </ul>
     </nav>
     <div class="warning hideError">
@@ -74,11 +74,11 @@
             </div>
           </div>
           <button
-          onclick="searchButtonCall();document.querySelector('stations>input').value=``;"
-            type="button"
-          >
-            Search
-          </button>
+  type="button"
+  onclick="searchButtonCall(); clearSearchInputs();"
+>
+  Search
+</button>
         </div>
       </div>
     </div>

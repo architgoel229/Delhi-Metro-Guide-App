@@ -182,6 +182,10 @@ function searchButtonCall() {
   }
 }
 
+function clearSearchInputs() {
+  document.querySelectorAll('.stations input').forEach(input => input.value = '');
+}
+
 function showMenu() {
   const menu = document.querySelector('.hamBurgerMenu');
   if (menu.classList.contains('hideMenu')) {
