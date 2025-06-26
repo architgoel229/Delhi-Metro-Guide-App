@@ -283,14 +283,15 @@ nav ul li:hover {
 }
 
 .smallHeadings{
-    font-weight: 600;
+    font-weight: 400;
     color: rgb(223, 223, 223);
     text-align: center;
 }
 
 .stationName{
-    font-weight: 300;
-    color: rgb(192, 192, 192);
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    color: rgb(255, 255, 255,0.5);
     font-size: 0.75rem;
     text-align: center;
 }
