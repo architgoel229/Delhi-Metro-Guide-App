@@ -19,7 +19,7 @@ function allTheStations() {
 function mustRun() {
   let allStations = allTheStations();
 
-  console.log("All Stations: ", allStations);
+  // console.log("All Stations: ", allStations);
 
   let innerTextDropDownFrom = ``;
   let innerTextDropDownTo = ``;
