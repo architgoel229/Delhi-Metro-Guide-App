@@ -61,6 +61,18 @@
       </p>
     </footer>
 </body>
-<script src="./index.js"></script>
-<script src="./index2.js"></script>
+    <script>
+  function showMenu() {
+  const menu = document.querySelector('.hamBurgerMenu');
+  if (menu.classList.contains('hideMenu')) {
+    menu.classList.remove('hideMenu');
+    menu.classList.add('showMenu');
+    document.body.classList.add('no-scroll');
+  } else {
+    menu.classList.remove('showMenu');
+    menu.classList.add('hideMenu');
+    document.body.classList.remove('no-scroll');
+  }
+}
+</script>
 </html>
