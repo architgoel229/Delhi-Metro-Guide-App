@@ -18,6 +18,7 @@ A comprehensive web application that helps commuters navigate Delhi's metro syst
 - **Station Count**: Displays total stations in your journey
 - **Responsive Design**: Works seamlessly on both desktop and mobile devices
 - **Modern UI**: Clean, intuitive interface with metro line color coding
+- **Fully client-side**: no external APIs used/ no Database used
 
 ## Technologies Used 💻
 
