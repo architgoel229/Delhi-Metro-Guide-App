@@ -581,4 +581,3 @@ function directionedRoute(startStation, endStation) {
     return getDirectionedInterchangeMetroRoute(route);
 }
 
-

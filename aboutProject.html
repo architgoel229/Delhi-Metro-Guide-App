@@ -12,27 +12,28 @@
 </head>
 <body>
    <nav>
-      <div class="logo">
-        <a href="./index.html">
-        <h1 
-        >Delhi Metro Guide</h1>
-        </a>
-      </div>
-      <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./aboutProject.html">About</a></li>
-      </ul>
-      <div class="hamBurger" onclick="showMenu()">
-        <i class="ri-menu-3-line"></i>
-      </div>
-      <div class="hamBurgerMenu hideMenu">
-        <div class="closeBtn" onclick="showMenu()">
-          <i class="ri-close-line"></i>
+        <div class="logo">
+            <a href="./index.html">
+                <h1>Delhi Metro Guide</h1>
+            </a>
         </div>
         <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./aboutProject.html">About</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./aboutProject.html">About</a></li>
+            <li><a href="./feedbackForm.html">Feedback</a></li>
         </ul>
+        <div class="hamBurger" onclick="showMenu()">
+            <i class="ri-menu-3-line"></i>
+        </div>
+        <div class="hamBurgerMenu hideMenu">
+            <div class="closeBtn" onclick="showMenu()">
+                <i class="ri-close-line"></i>
+            </div>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./aboutProject.html">About</a></li>
+                <li><a href="./feedbackForm.html">Feedback</a></li>
+            </ul>
     </nav>
     <div class="container">
         <h2>About </h2>
@@ -61,7 +62,8 @@
       </p>
     </footer>
 </body>
-    <script>
+
+<script>
   function showMenu() {
   const menu = document.querySelector('.hamBurgerMenu');
   if (menu.classList.contains('hideMenu')) {
