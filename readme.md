@@ -8,7 +8,7 @@ A comprehensive web application that helps commuters navigate Delhi's metro syst
 
 ### Demo 📽️
 
-[▶️ Demo Video showcasing the project](https://youtu.be/7w6dm354kCE)
+[▶️ Demo Video showcasing the project](https://youtu.be/O9lpga3QqLY)
 
 ## Features ✨
 
